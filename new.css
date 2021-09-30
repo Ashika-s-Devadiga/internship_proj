@@ -5,11 +5,11 @@
 }
 .navmenu {
 	width: 100%;
-	background: #14144d;
+	background: #28276d4d;
 	display: inline-block;
 }
 .box{
-	width: 50%;
+	width: 30%;
 	float: left;
 	background-color: #fff;
 	height: 67px;
@@ -18,6 +18,7 @@
 }
 .box>p {
 	text-align: right;
+	padding-right: 10px ;
 }
 
 
@@ -30,7 +31,7 @@ nav ul {
 	list-style-type: none;
 	padding-left: 0;
 	font-size: 0;
-	background-color: #222262;
+	background-color: #28276d;
     float: right;
 }
 
@@ -39,10 +40,10 @@ nav li {
 	font-size: 18px;
 	color: white;
         margin: 0 5px;
-        padding-left: 25px;    
+        padding-left: 15px;    
 }
 .navbar{
-	width: 50%;
+	width: 70%;
 }
 
 ul.navbar>li>a {
@@ -57,46 +58,16 @@ nav a {
 	color: inherit;
 }
 
-
-/*==Dropdown Menu==*/
-
-.sub-menu li {
-	list-style-type: none;
-	display: inline-block
-}
-
-ul.navbar li ul.sub-menu {
-	display: none;
-	position: absolute
-}
-
-ul.navbar li {
-	position: relative;
-}
-
-ul.navbar li:hover ul.sub-menu {
-	display: block
-}
-
-.sub-menu li {
-	margin-left: 0!important
-}
-
-ul.sub-menu>li>a {
-	color: #fff;
-}
-ul.navbar>li>a:hover,
-ul.sub-menu>li>a:hover {
-	color: #66a992;
+ul.navbar>li>a:hover {
+	color: white;
+	background-color: #c01f2e ;
 }
 
 @media only screen and (max-width:720px) {
 	nav ul {
 		width: 100%!important
 	}
-	#sub-menu {
-		display: none
-	}
+	
 	nav a {
 		padding: 5px 10px
 	}
@@ -147,14 +118,48 @@ ul.sub-menu>li>a:hover {
    
 
 }
+.para1{
+	font-family: 'Lato', sans-serif;
+	font-size: 39px;
+ line-height: 1.3em; 
+ padding-left: 150px;
+ padding-top: 85px;
+font-weight: bold;
+}
+
+.para2{
+	font-family: ;
+	font-size: 7em;
+	padding-left: 150px;
+
+}
+.para3{
+	font-size: 15px;
+	padding-left: 150px;
+
+}
+
+.button {
+	border: none;
+	color: white;
+	padding: 15px 32px; 
+	text-align: center;
+	text-decoration: none;
+	/* display: inline-block; */
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #c01f2e ;
+	position: relative;
+	left: 150px;
+	top: 50px;
+	line-height: 1.3em; 
+  }
 .box1{
 	height: 148px;
     width: 92vw;
-	top: 430px;
+	top: 115px;
 	left: 40px;
     background-color: #fff;
-	position: relative;
-	
-    
-    
+	position: relative;      
 }
