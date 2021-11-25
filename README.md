@@ -1,1 +1,1 @@
-# internship_proj
+# Training_page_htmlcss_proj
